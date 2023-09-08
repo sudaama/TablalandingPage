@@ -66,7 +66,7 @@ ul a {
     gap: 10px;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-wrap: wrap;
+    
 }
 
 .botleft {
@@ -134,7 +134,7 @@ img {
         align-items: center;
         padding-top: 50px;
         padding-bottom: 50px;
-        background-color: #e5e7eb;
+        background-color: #ffffff;
       }
 
       .info .box-image {
@@ -157,15 +157,12 @@ img {
             font-weight: 900;
             text-align: center;
             padding-top: 20px;
-           margin-top: 20px;
-            background-color: #e5e7eb;
       }
 
       .quotation {
-        width: 80%;
-        margin: 20px auto;
-        background-color: e5e7eb;
-        
+        background-color:#e5e7eb;
+        padding: 50px 50px;
+        margin: 50px 0px;
       }
 
        .quotation p {
@@ -184,3 +181,39 @@ img {
         margin-top: 10px;
         font-size: 1.25rem;
       }
+
+     .actioncall {
+        padding: 0px 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+     }
+
+     .mainbox.offset {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 150px;
+        gap: 30px;
+        background-color: #3882f6;
+        font: white;
+        border-radius: 5px;
+     }
+
+     .btn {
+        background-color: #3882f6;
+        border: white solid 2px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .leftside h2, p {
+        color: white;   
+    }
