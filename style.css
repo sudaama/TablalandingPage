@@ -1,0 +1,156 @@
+
+
+body * {
+    margin: 0px;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%  ;
+    margin: auto;
+}
+
+.topsect {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+   /* background-color: #1f2937; */
+   flex-wrap: wrap;
+}
+
+.myheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.myheader ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 10px;
+}
+
+ul a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.botbit {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.botleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.botright img {
+    max-width: 400px;
+    min-width: 250px;
+}
+
+.awesome span {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.awesome > div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
+img {
+    width: 100%;
+  }
+
+  .signup .btn{
+    background: #3882f6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100px;
+    color: : white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  
+    .btn {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+  
+      .info {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #e5e7eb;
+      }
+
+      .info .box-image {
+            height: 250px;
+            width: 250px;
+            border: 4px solid;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+      }
+      .info .box-image img {
+        height: 100%;
+        width: 100%;
+      }
+
+
+      
+      {
+            font-size: 2.25rem;
+            font-weight: 900;
+            color: ;
+            text-align: center;
+            margin-bottom: 20px;
+      }
