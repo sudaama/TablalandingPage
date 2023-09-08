@@ -2,14 +2,14 @@
 
 body * {
     margin: 0px;
-    background-color: #1f2937;
+   /*  background-color: #1f2937; */
     font-family: "Roboto", sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 10%  ;
+  /*   padding: 0 10%  ; */
     margin: auto;
 }
 
@@ -18,8 +18,13 @@ body * {
     flex-direction: column;
     justify-content: space-between;
     gap: 40px;
-   /* background-color: #1f2937; */
+    background-color: #1f2937;
    flex-wrap: wrap;
+   
+}
+
+.offset {
+    padding: 0px 5%;
 }
 
 .myheader {
@@ -123,7 +128,7 @@ img {
   
       .info {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         gap: 20px;
         flex-wrap: wrap;
         align-items: center;
@@ -146,11 +151,36 @@ img {
       }
 
 
-      
+      .tabhead h2
       {
             font-size: 2.25rem;
             font-weight: 900;
-            color: ;
             text-align: center;
-            margin-bottom: 20px;
+            padding-top: 20px;
+           margin-top: 20px;
+            background-color: #e5e7eb;
+      }
+
+      .quotation {
+        width: 80%;
+        margin: 20px auto;
+        background-color: e5e7eb;
+        
+      }
+
+       .quotation p {
+        font-size: 2.25rem;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+        color: #1f2937;
+        margin-top: 30px;
+      }
+
+      .quotation span p {
+        text-align: right;
+        font-weight: bold;
+        font-style: normal;
+        margin-top: 10px;
+        font-size: 1.25rem;
       }
